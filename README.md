@@ -5,9 +5,8 @@
 Nodes for graduation research
 
 This is a node I made for my graduation research.
-
-I tried to make it myself based on the example.
-
+A node that tells whether the Akita Shinkansen is in normal operation or train delay.
+Shinkansen information was obtained by web scraping
 
 
 (See 

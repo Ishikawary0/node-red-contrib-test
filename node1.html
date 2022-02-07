@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('akita-shinkansen',{
+        category: 'function',
+        color: '#FFAAAA',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "font-awesome/fa-train",
+        label: function() {
+            return this.name||"akita-shinkansen";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="akita-shinkansen">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="akita-shinkansen">
+    <p>A node that tells whether the Akita Shinkansen is in normal operation or train delay. </p>
+</script>

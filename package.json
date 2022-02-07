@@ -1,14 +1,15 @@
 {
-  "name": "node-red-contrib-test",
+  "name": "red-contrib-test",
   "version": "1.0.0",
-  "description": "node-japanCOVID-19 ",
+  "description": "node-Akita_Shinnkannsenn  ",
   "main": "node.js",
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "node-red":{
-    "nodes":{
-      "japan-corona":"node.js"
+  "node-red": {
+    "nodes": {
+      "akita-shinkansen": "node1.js"
     }
   },
   "repository": {
@@ -17,12 +18,20 @@
   },
   "keywords": [
     "node-red",
-    "COVID-19"
+    "akita-comachi"
   ],
   "author": "t180d504",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Ishikawary0/node-red-contrib-test/issues"
   },
-  "homepage": "https://github.com/Ishikawary0/node-red-contrib-test#readme"
+  "homepage": "https://github.com/Ishikawary0/node-red-contrib-test#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {}
 }
+
